@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patil Divyesh H | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Navbar -->
-<header>
-    <nav class="navbar">
+<header class="navbar">
+    <div class="container">
         <h1 class="logo">Divyesh</h1>
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -18,30 +18,30 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
+    </div>
 </header>
 
-<!-- Hero -->
 <section class="hero">
-    <div class="hero-content">
-        <h2>Hello, I'm</h2>
-        <h1>Patil <span>Divyesh H.</span></h1>
-        <p>Diploma Computer Engineering Student</p>
-        <p class="sub">Flutter Developer | Web Developer | Backend Learner</p>
+    <div class="container hero-container">
+        <div class="hero-text">
+            <h2>Hello, I'm</h2>
+            <h1>Patil <span>Divyesh H.</span></h1>
+            <p>Diploma Computer Engineering Student</p>
+            <p class="sub">Flutter Developer | Web Developer | Backend Learner</p>
+        </div>
+        <div class="hero-image">
+        <img src="image/profile.jpeg">    
+        </div>
     </div>
 </section>
 
-<!-- About -->
 <section id="about" class="section">
     <h2 class="section-title">About Me</h2>
     <p class="section-text">
-        My name is Patil Divyesh H. I am a Diploma Computer Engineering student.
-        I have experience in Flutter mobile application development and web development.
-        Currently, I am learning backend development to become a full-stack developer.
+        My name is Patil Divyesh H. I am a Diploma Computer Engineering student. I have knowledge of Flutter mobile application and web development and currently working on backend development.
     </p>
 </section>
 
-<!-- Skills -->
 <section id="skills" class="section gray">
     <h2 class="section-title">Skills</h2>
     <div class="skills-grid">
@@ -49,35 +49,29 @@
         <div class="skill-card">Flutter</div>
         <div class="skill-card">HTML</div>
         <div class="skill-card">CSS</div>
-        <div class="skill-card">PHP (Working)</div>
+        <div class="skill-card">PHP</div>
         <div class="skill-card">MySQL</div>
     </div>
 </section>
 
-<!-- Projects -->
 <section id="projects" class="section">
     <h2 class="section-title">Projects</h2>
     <div class="project-box">
-        <h3>E-Commerce Application (Internship Project)</h3>
-        <p>
-            Developed an E-Commerce mobile application during internship using Flutter.
-            Implemented product listing with Firebase backend.
-        </p>
-        <p><strong>Technologies:</strong> Flutter, Dart, Firebase</p>
+        <h3>Internship: E-Commerce Application</h3>
+        <p>Developed an E-Commerce mobile application using Flutter, Firebase and product listing.</p>
+        <p><strong>Tech:</strong> Flutter, Dart, Firebase</p>
     </div>
 </section>
 
-<!-- Education -->
 <section id="education" class="section gray">
     <h2 class="section-title">Education</h2>
     <div class="education-card">
         <h3>Diploma in Computer Engineering</h3>
-        <p>Shri K. J. Polytechnic, Gujarat</p>
+        <p>Shri K.J. Polytechnic, Gujarat</p>
         <p>Passing Year: 2026</p>
     </div>
 </section>
 
-<!-- Contact -->
 <section id="contact" class="section">
     <h2 class="section-title">Contact</h2>
     <div class="contact-grid">
@@ -91,7 +85,5 @@
     <p>© 2025 Patil Divyesh H. All Rights Reserved.</p>
 </footer>
 
-<script src="script.js"></script>
 </body>
 </html>
-
